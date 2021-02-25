@@ -191,9 +191,9 @@ export default class ShareButton<LinkOptions> extends Component<Props<LinkOption
     } = this.props;
 
     const newClassName = cx(
-      'react-share__ShareButton',
+      'pathrise__ReferralButton',
       {
-        'react-share__ShareButton--disabled': !!disabled,
+        'pathrise__ReferralButton--disabled': !!disabled,
         disabled: !!disabled,
       },
       className,
